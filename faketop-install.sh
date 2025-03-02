@@ -26,7 +26,7 @@ rm -r /home/blueteam/htop
 touch -a -m -t 202403140001 /usr/bin/htop
 touch -a -m -t 202403140001 /usr/share/doc/htop
 
-apt remove git autoconf automake build-essential
+apt remove git autoconf automake build-essential -y
 
 shred .bash_history
 
